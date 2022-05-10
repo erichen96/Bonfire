@@ -12,4 +12,9 @@ pod 'Firebase/Database'
 # 3rd Party SignIn Packages
 pod 'GoogleSignIn', '~>5.0'
 
+pod 'MessageKit'
+pod 'JGProgressHUD'
+pod 'SDWebImage'
+
+pod 'RealmSwift'
 end
