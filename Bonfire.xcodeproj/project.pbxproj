@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5B83CE2D27FBD3BD000FA249 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE2C27FBD3BD000FA249 /* AppDelegate.swift */; };
+		5B83CE2F27FBD3BD000FA249 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE2E27FBD3BD000FA249 /* SceneDelegate.swift */; };
+		5B83CE3127FBD3BD000FA249 /* ConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE3027FBD3BD000FA249 /* ConversationViewController.swift */; };
+		5B83CE3427FBD3BD000FA249 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B83CE3227FBD3BD000FA249 /* Main.storyboard */; };
+		5B83CE3627FBD3CC000FA249 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B83CE3527FBD3CC000FA249 /* Assets.xcassets */; };
+		5B83CE3927FBD3CC000FA249 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B83CE3727FBD3CC000FA249 /* LaunchScreen.storyboard */; };
+		5B83CE4727FC00ED000FA249 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE4627FC00ED000FA249 /* LoginViewController.swift */; };
+		5B83CE4927FC0107000FA249 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE4827FC0107000FA249 /* RegisterViewController.swift */; };
+		5B83CE4B27FC0121000FA249 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE4A27FC0121000FA249 /* PhotoViewerViewController.swift */; };
+		5B83CE4D27FC012D000FA249 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE4C27FC012D000FA249 /* VideoPlayerViewController.swift */; };
+		5B83CE4F27FC014B000FA249 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE4E27FC014B000FA249 /* NewConversationViewController.swift */; };
+		5B83CE5127FC0160000FA249 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE5027FC0160000FA249 /* ProfileViewController.swift */; };
+		5B83CE542802116A000FA249 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B83CE5328021169000FA249 /* Extensions.swift */; };
+		5BAA1D93280665F9003BE23F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5BAA1D92280665F9003BE23F /* GoogleService-Info.plist */; };
+		5BAED8CE2828DC0C004EE88C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BAED8CD2828DC0C004EE88C /* DatabaseManager.swift */; };
+		8C206DDFCAFBE076638B6025 /* Pods_Bonfire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACA4B2661227576319F32047 /* Pods_Bonfire.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B83CE2927FBD3BD000FA249 /* Bonfire.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bonfire.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B83CE2C27FBD3BD000FA249 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5B83CE2E27FBD3BD000FA249 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		5B83CE3027FBD3BD000FA249 /* ConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationViewController.swift; sourceTree = "<group>"; };
+		5B83CE3327FBD3BD000FA249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5B83CE3527FBD3CC000FA249 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5B83CE3827FBD3CC000FA249 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5B83CE3A27FBD3CC000FA249 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B83CE4627FC00ED000FA249 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5B83CE4827FC0107000FA249 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		5B83CE4A27FC0121000FA249 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		5B83CE4C27FC012D000FA249 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		5B83CE4E27FC014B000FA249 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		5B83CE5027FC0160000FA249 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5B83CE5328021169000FA249 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		5BAA1D92280665F9003BE23F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		5BAED8CD2828DC0C004EE88C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		71AE30BAECEA7CDFF47E8B7A /* Pods-Bonfire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonfire.debug.xcconfig"; path = "Target Support Files/Pods-Bonfire/Pods-Bonfire.debug.xcconfig"; sourceTree = "<group>"; };
+		7ABAE125BC57842E24391E7F /* Pods-Bonfire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bonfire.release.xcconfig"; path = "Target Support Files/Pods-Bonfire/Pods-Bonfire.release.xcconfig"; sourceTree = "<group>"; };
+		ACA4B2661227576319F32047 /* Pods_Bonfire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bonfire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5B83CE2627FBD3BD000FA249 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C206DDFCAFBE076638B6025 /* Pods_Bonfire.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C3561CDA8FB098C7031BFCF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				71AE30BAECEA7CDFF47E8B7A /* Pods-Bonfire.debug.xcconfig */,
+				7ABAE125BC57842E24391E7F /* Pods-Bonfire.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		5B83CE2027FBD3BD000FA249 = {
+			isa = PBXGroup;
+			children = (
+				5B83CE2B27FBD3BD000FA249 /* Bonfire */,
+				5B83CE2A27FBD3BD000FA249 /* Products */,
+				3C3561CDA8FB098C7031BFCF /* Pods */,
+				FA4AEE219E7F394BF978D1AA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5B83CE2A27FBD3BD000FA249 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5B83CE2927FBD3BD000FA249 /* Bonfire.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5B83CE2B27FBD3BD000FA249 /* Bonfire */ = {
+			isa = PBXGroup;
+			children = (
+				5BAA1D92280665F9003BE23F /* GoogleService-Info.plist */,
+				5B83CE4427FBFFB7000FA249 /* ViewModels */,
+				5B83CE4327FBFFAE000FA249 /* Resources */,
+				5B83CE4227FBFFA6000FA249 /* Models */,
+				5B83CE4127FBFF9A000FA249 /* Views */,
+				5B83CE4027FBFF8F000FA249 /* Controllers */,
+				5B83CE3A27FBD3CC000FA249 /* Info.plist */,
+			);
+			path = Bonfire;
+			sourceTree = "<group>";
+		};
+		5B83CE4027FBFF8F000FA249 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5B83CE3027FBD3BD000FA249 /* ConversationViewController.swift */,
+				5B83CE5227FD4422000FA249 /* Login */,
+				5B83CE4A27FC0121000FA249 /* PhotoViewerViewController.swift */,
+				5B83CE4C27FC012D000FA249 /* VideoPlayerViewController.swift */,
+				5B83CE4E27FC014B000FA249 /* NewConversationViewController.swift */,
+				5B83CE5027FC0160000FA249 /* ProfileViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5B83CE4127FBFF9A000FA249 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5B83CE4527FBFFDB000FA249 /* Storyboards */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5B83CE4227FBFFA6000FA249 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		5B83CE4327FBFFAE000FA249 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5B83CE2C27FBD3BD000FA249 /* AppDelegate.swift */,
+				5B83CE2E27FBD3BD000FA249 /* SceneDelegate.swift */,
+				5B83CE5328021169000FA249 /* Extensions.swift */,
+				5BAED8CD2828DC0C004EE88C /* DatabaseManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5B83CE4427FBFFB7000FA249 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		5B83CE4527FBFFDB000FA249 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5B83CE3227FBD3BD000FA249 /* Main.storyboard */,
+				5B83CE3527FBD3CC000FA249 /* Assets.xcassets */,
+				5B83CE3727FBD3CC000FA249 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5B83CE5227FD4422000FA249 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				5B83CE4627FC00ED000FA249 /* LoginViewController.swift */,
+				5B83CE4827FC0107000FA249 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		FA4AEE219E7F394BF978D1AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACA4B2661227576319F32047 /* Pods_Bonfire.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5B83CE2827FBD3BD000FA249 /* Bonfire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5B83CE3D27FBD3CC000FA249 /* Build configuration list for PBXNativeTarget "Bonfire" */;
+			buildPhases = (
+				FDF709793E652D7F7B47672D /* [CP] Check Pods Manifest.lock */,
+				5B83CE2527FBD3BD000FA249 /* Sources */,
+				5B83CE2627FBD3BD000FA249 /* Frameworks */,
+				5B83CE2727FBD3BD000FA249 /* Resources */,
+				E27E9241099FC241426E16AC /* [CP] Embed Pods Frameworks */,
+				1AB1D8AF43150406A32FF24E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bonfire;
+			productName = Bonfire;
+			productReference = 5B83CE2927FBD3BD000FA249 /* Bonfire.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5B83CE2127FBD3BD000FA249 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					5B83CE2827FBD3BD000FA249 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 5B83CE2427FBD3BD000FA249 /* Build configuration list for PBXProject "Bonfire" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5B83CE2027FBD3BD000FA249;
+			productRefGroup = 5B83CE2A27FBD3BD000FA249 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5B83CE2827FBD3BD000FA249 /* Bonfire */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5B83CE2727FBD3BD000FA249 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B83CE3927FBD3CC000FA249 /* LaunchScreen.storyboard in Resources */,
+				5BAA1D93280665F9003BE23F /* GoogleService-Info.plist in Resources */,
+				5B83CE3627FBD3CC000FA249 /* Assets.xcassets in Resources */,
+				5B83CE3427FBD3BD000FA249 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AB1D8AF43150406A32FF24E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E27E9241099FC241426E16AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bonfire/Pods-Bonfire-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF709793E652D7F7B47672D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bonfire-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5B83CE2527FBD3BD000FA249 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B83CE4727FC00ED000FA249 /* LoginViewController.swift in Sources */,
+				5BAED8CE2828DC0C004EE88C /* DatabaseManager.swift in Sources */,
+				5B83CE4927FC0107000FA249 /* RegisterViewController.swift in Sources */,
+				5B83CE4F27FC014B000FA249 /* NewConversationViewController.swift in Sources */,
+				5B83CE3127FBD3BD000FA249 /* ConversationViewController.swift in Sources */,
+				5B83CE4D27FC012D000FA249 /* VideoPlayerViewController.swift in Sources */,
+				5B83CE542802116A000FA249 /* Extensions.swift in Sources */,
+				5B83CE2D27FBD3BD000FA249 /* AppDelegate.swift in Sources */,
+				5B83CE5127FC0160000FA249 /* ProfileViewController.swift in Sources */,
+				5B83CE2F27FBD3BD000FA249 /* SceneDelegate.swift in Sources */,
+				5B83CE4B27FC0121000FA249 /* PhotoViewerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5B83CE3227FBD3BD000FA249 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B83CE3327FBD3BD000FA249 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5B83CE3727FBD3CC000FA249 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5B83CE3827FBD3CC000FA249 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5B83CE3B27FBD3CC000FA249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5B83CE3C27FBD3CC000FA249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5B83CE3E27FBD3CC000FA249 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71AE30BAECEA7CDFF47E8B7A /* Pods-Bonfire.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKPMM3BQYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bonfire/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to select photos for profile image";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to select photo for profile image from photos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erichen196.Bonfire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5B83CE3F27FBD3CC000FA249 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7ABAE125BC57842E24391E7F /* Pods-Bonfire.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = SKPMM3BQYW;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bonfire/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Used to select photos for profile image";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Allow access to select photo for profile image from photos";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.erichen196.Bonfire;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5B83CE2427FBD3BD000FA249 /* Build configuration list for PBXProject "Bonfire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B83CE3B27FBD3CC000FA249 /* Debug */,
+				5B83CE3C27FBD3CC000FA249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5B83CE3D27FBD3CC000FA249 /* Build configuration list for PBXNativeTarget "Bonfire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5B83CE3E27FBD3CC000FA249 /* Debug */,
+				5B83CE3F27FBD3CC000FA249 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5B83CE2127FBD3BD000FA249 /* Project object */;
+}
