@@ -4,10 +4,11 @@
 target 'Bonfire' do
   use_frameworks!
 
-  # Pods for Bonfire
+# Pods for Bonfire
 pod 'Firebase/Core'
 pod 'Firebase/Auth'
 pod 'Firebase/Database'
+pod 'Firebase/Storage'
 
 # 3rd Party SignIn Packages
 pod 'GoogleSignIn', '~>5.0'
@@ -16,5 +17,7 @@ pod 'MessageKit'
 pod 'JGProgressHUD'
 pod 'SDWebImage'
 
+
+# Known error at Xcode 13.2+
 pod 'RealmSwift'
 end
