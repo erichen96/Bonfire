@@ -57,6 +57,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate, GIDSignInDelegate {
                   return
               }
         
+        UserDefaults.standard.set(email, forKey: "email")
+        
         DatabaseManager.shared.validateNewUser(with: email, completion: { exists in
             if !exists {
                 //insert to firebase database
