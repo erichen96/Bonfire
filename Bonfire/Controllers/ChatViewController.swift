@@ -10,47 +10,6 @@ import MessageKit
 import InputBarAccessoryView
 import SwiftUI
 
-struct Message: MessageType {
-    public var sender: SenderType
-    public var messageId: String
-    public var sentDate: Date
-    public var kind: MessageKind
-    
-}
-extension MessageKind {
-    var messageKindString: String {
-        switch self {
-            
-        case .text(_):
-            return "text"
-        case .attributedText(_):
-            return "attributed_text"
-        case .photo(_):
-            return "photo"
-        case .video(_):
-            return "video"
-        case .location(_):
-            return "location"
-        case .emoji(_):
-            return "emoji"
-        case .audio(_):
-            return "audio"
-        case .contact(_):
-            return "contact"
-        case .linkPreview(_):
-            return "link_preview"
-        case .custom(_):
-            return "custom"
-        }
-    }
-}
-
-
-struct Sender: SenderType {
-    public var photoURL: String
-    public var senderId: String
-    public var displayName: String
-}
 
 
 class ChatViewController: MessagesViewController {
@@ -158,7 +117,7 @@ extension ChatViewController: InputBarAccessoryViewDelegate {
         if isNewConversation {
             
             //create new conversation
-            DatabaseManager.shared.createNewConversation(with: otherUserEmail,name: self.title ?? "User", firstMessage: message, completion: {[weak self] success in
+            DatabaseManager.shared.createNewConversation(with: otherUserEmail, name: self.title ?? "User", firstMessage: message, completion: {[weak self] success in
                 if success{
                     print("Message Sent")
                     self?.isNewConversation = false
@@ -171,7 +130,7 @@ extension ChatViewController: InputBarAccessoryViewDelegate {
                 return
             }
             //append to existing conversation data
-            DatabaseManager.shared.sendMessage(to: conversationId, name: name, newMessage: message, completion: { success in
+            DatabaseManager.shared.sendMessage(to: conversationId, otherUserEmail: otherUserEmail, name: name,newMessage: message, completion: { success in
                 if success {
                     print("Message Sent")
                 } else {
