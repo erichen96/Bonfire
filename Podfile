@@ -19,5 +19,5 @@ pod 'SDWebImage'
 
 
 # Known error at Xcode 13.2+
-pod 'RealmSwift'
+# pod 'RealmSwift'
 end
