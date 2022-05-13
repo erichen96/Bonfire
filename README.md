@@ -1,6 +1,12 @@
-# Bonfire
+## Bonfire
 A Chat Application that allows users to communicate with other users and potentially leave location based messages.
 
+# Proposal
+- Allow users to create an account via Firebase email or Using Google email. 
+- Allow users to search up all users and create new chat screen with them. 
+- Allow users to search messages to each other in their own chat screen.
+- Make use of packages like Realm to reduce fetch calls to the firebase database. 
+- Lets users create "footprint" messages on the map using Mapkit, essentially messages that are not targetted at other users. Just one that contains location data. 
 
 # How to Use: 
 - Run pod install to grab relevant packages and build.
